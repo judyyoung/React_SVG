@@ -9,3 +9,26 @@
 .svg-icon.telephone:hover path {
   fill: #49c;
 }
+.eventColumn{
+  font-family: "sans-serif";
+  margin-left: 10px
+}
+.pattern-row{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background:#e2e2e2
+}
+.pattern-row.editsHint{
+  align-self: flex-end;
+}
+.edit-row{
+  display: flex;
+  align-items: stretch;
+  background: #ffffff;
+}
+
+.event-row{
+  display: flex;
+  align-items: stretch;
+}
